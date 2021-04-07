@@ -43,7 +43,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     }
 
     private void displayNotification(Context context, String title, String body) {
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, "simplified_coding")
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, "GUIDed")
                 .setContentTitle(title)
                 .setContentText(body)
                 .setSmallIcon(R.drawable.ic_announcement_black_24dp)
